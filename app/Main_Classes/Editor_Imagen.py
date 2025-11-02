@@ -3,7 +3,7 @@
 import os
 from PIL import Image, ImageEnhance
 from app.Main_Classes.HistorialCambios import HistorialCambios
-from app.Main_Classes.dibujador import Dibujador
+from app.Main_Classes.Dibujador import Dibujador
 from app.Main_Classes.Recorte import Recorte
 from app.Main_Classes.FIltro import Filtro
 
