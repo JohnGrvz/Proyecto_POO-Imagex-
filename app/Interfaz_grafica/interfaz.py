@@ -1,10 +1,10 @@
 import customtkinter as ctk
 from tkinter import filedialog, messagebox
 from PIL import ImageTk, Image, ImageDraw
-from app.Clases_principales.Editorimagen import EditorImagen
-from app.Clases_principales.dibujador import Dibujador
-from app.Clases_principales.Recorte import Recorte
-from app.api.api_manager import ApiManager
+from app.Main_Classes.Editor_Imagen import EditorImagen
+from app.Main_Classes.Dibujador import Dibujador
+from app.Main_Classes.Recorte import Recorte
+from app.api.Api_manager import ApiManager
 import os
 
 class InterfazEditor:
