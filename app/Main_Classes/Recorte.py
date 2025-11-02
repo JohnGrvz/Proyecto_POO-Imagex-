@@ -4,8 +4,10 @@ class Recorte:
 
     @staticmethod
     def recortar(imagen: Image, coordenadas: tuple[int, int, int, int]) -> Image:
-        """Recorta la imagen según las coordenadas dadas (x1, y1, x2, y2),
-        asegurando que los valores estén ordenados correctamente."""
+        """
+        Recorta la imagen según las coordenadas dadas (x1, y1, x2, y2),
+        asegurando que los valores estén ordenados correctamente.
+        """
 
         if imagen is None:
             print(" No hay imagen para recortar")
